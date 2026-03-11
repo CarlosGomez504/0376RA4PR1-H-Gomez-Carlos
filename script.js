@@ -11,6 +11,7 @@ let p1 = document.querySelector("#paragraf-hola");
 p1.textContent = "Hola món";
 
 //3 - Atributs: Canvia la 'src' d'una imatge <img> usant setAttribute.
+// otras pruebas
 let img1 = document.querySelector("#imatge-canviant");
 img1.setAttribute ("src", "https://miro.medium.com/v2/resize:fit:1400/1*QDTxIqU757CJYASfD5f89Q.jpeg")
 
