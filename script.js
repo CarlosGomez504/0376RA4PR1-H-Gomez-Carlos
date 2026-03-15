@@ -7,6 +7,7 @@ h1.style.color ="red";
 
 
 //2 - Contingut: Fes que un paràgraf <p> mostri "Hola Món" usant textContent.
+// comentario
 let p1 = document.querySelector("#paragraf-hola");
 p1.textContent = "Hola món";
 
