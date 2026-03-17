@@ -14,36 +14,56 @@
     </style>
 </head>
 <body>
+<<<<<<< HEAD
    
     <h1 id="titol-principal">Aprenent el DOM</h1>
     <p>Estoy editando para guardar que pasa</p>
     <p>Hola, món!</p>
     <p>me voy no</p>
 
+=======
+    
+    <h1 id="titol-principal">Aprenent el DOM</h1>
+    <p>Estoy editando para guardar que pasa</p>
+    <p>Hola, món!</p>
+    <p>Casa</p>
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
 
     <div class="caixa">
         <p id="paragraf-hola">Aquest text canviarà...</p>
     </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
     <div class="caixa">
         <img id="imatge-canviant" src="https://via.placeholder.com/150/cccccc" alt="Imatge de prova" width="150">
         <p><small>Canvia el 'src' d'aquesta imatge.</small></p>
     </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
     <div class="caixa" id="caixa-estil">
         <p>Fes clic al botó per saludar o canviar el fons d'aquesta caixa.</p>
         <button id="boto-alerta">Llança Alerta</button>
     </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
     <div class="caixa">
         <p id="text-classe">Aquest text pot guanyar la classe 'actiu'.</p>
         <button id="boto-toggle">Commuta Classe (Toggle)</button>
     </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
     <div class="caixa">
         <h3>La meva llista de la compra:</h3>
         <ul id="llista-compra">
@@ -53,7 +73,10 @@
         <button id="boto-afegir">Afegir Item</button>
     </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
     <div class="caixa">
         <p>Fes clic sobre aquest element per eliminar-lo del mapa:</p>
         <div id="element-eliminar" style="background: #ffcccc; padding: 10px; cursor: pointer; text-align: center;">
@@ -61,11 +84,15 @@
         </div>
     </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
     <script>
         let h1 = document.querySelector("#titol-principal");
         h1.style.color = "blue";
 
+<<<<<<< HEAD
 
         let p = document.querySelector("#paragraf-hola");
         p.textContent = "Hola Món";
@@ -75,6 +102,14 @@
         img1.setAttribute ("src", "https://miro.medium.com/v2/resize:fit:1400/1*QDTxIqU757CJYASfD5f89Q.jpeg")
 
 
+=======
+        let p = document.querySelector("#paragraf-hola");
+        p.textContent = "Hola Món";
+
+        let img1 = document.querySelector("#imatge-canviant");
+        img1.setAttribute ("src", "https://miro.medium.com/v2/resize:fit:1400/1*QDTxIqU757CJYASfD5f89Q.jpeg")
+
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
         let boton = document.querySelector ("#boto-alerta");
         let caixa = document.querySelector ("#caixa-estil");
         boton.onclick = function() {
@@ -82,16 +117,25 @@
         caixa.classList.toggle("dark-mode");
         };
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
         let botonAlerta = document.querySelector ("#boto-toggle")
         botonAlerta.addEventListener("click", function() {
         alert("pulsaste el boton toggle");
         });
 
+<<<<<<< HEAD
 
         let botoAfegirItem = document.querySelector("#boto-afegir");
         let llistaCompra = document.querySelector("#llista-compra");
        
+=======
+        let botoAfegirItem = document.querySelector("#boto-afegir");
+        let llistaCompra = document.querySelector("#llista-compra");
+        
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
         botoAfegirItem.onclick = function(){
         let nouitem = document.createElement("li");
         nouitem.textContent = "formatge";
@@ -99,9 +143,18 @@
         };
         let cuadroColorSalmon = document.querySelector('#element-eliminar');
         cuadroColorSalmon.onclick = function() {
+<<<<<<< HEAD
         cuadroColorSalmon.remove();  
         };
     </script>
     <script src="script.js" ></script>
 </body>
 </html>
+=======
+        cuadroColorSalmon.remove();   
+        }; 
+    </script>
+    <script src="script.js" ></script>
+</body>
+</html>
+>>>>>>> b6f29770ff795ae0e271c3c65f3a07300e3e4e00
