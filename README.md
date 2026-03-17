@@ -17,6 +17,32 @@ Este proyecto consiste en la resolución de ejercicios prácticos sobre el DOM, 
 2. Para añadir un ítem a la lista: `llistaCompra.appendChild(nouitem);`
 3. Para eliminar el elemento: `cuadroColorSalmon.remove();`
 
+## Historial de cambios (Commits relevantes)
+
+Durante el desarrollo del proyecto se han realizado los siguientes cambios importantes:
+
+* **Creación inicial del proyecto**  
+  → Añadiendo todos los archivos del proyecto.
+
+* **Creación del README**  
+  → Se documenta el proyecto en Markdown.
+
+* **Estructura y estilos**  
+  → Se movieron los estilos CSS desde el HTML a un archivo externo (`style.css`).
+
+* **Modificaciones de contenido**  
+  → Se añadieron y eliminaron párrafos de prueba.
+
+* **Trabajo con ramas**  
+  → Se añadió un encabezado desde la rama `feature/header`.
+
+* **Merge de ramas**  
+  → Se integró la rama `feature/header` en `main`.
+
+* **Resolución de conflictos**  
+  → Se solucionaron conflictos tras el merge.
+
+
 
 ## Notas para mi sobre la sintaxis Markdown utilizada:
 * **`#`**: Define un título de nivel 1 (equivalente a `<h1>`).
